@@ -1,0 +1,102 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+<div class="page">
+
+    <header class="top-nav">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+
+            <div class="logo">
+                <a href="/" class="brand-name">~P Shiva K~</a> <!-- Customize logo text or image as needed -->
+            </div>
+
+            <nav class="nav-links">
+                <a href="/about" class="nav-link">About</a>
+                <a href="/experience" class="nav-link">Experience</a>
+                <a href="/education" class="nav-link">Education</a>
+                <a href="/technical" class="nav-link">Technical Skills</a>
+                <a href="/resume" class="nav-link">Resume</a>
+                <a href="/contact" class="nav-link">Contact</a>
+            </nav>
+
+
+            <label class="switch">
+                <input type="checkbox" @onclick="ToggleTheme">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+
+    <section class="title-section">
+        <h2 class="heading">
+            @TopRowTitle 
+        </h2>
+    </section>
+
+
+    <main>
+        <article class="content">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+    public string TopRowTitle { get; set; } = "About";
+    public string TopRowTitleEmoji { get; set; } = "👨‍💼";
+
+    private readonly Dictionary<string, (string title, string emoji)> _titleEmojiMapping = new()
+    {
+        { "experience", ("Experience", "💼") },
+        { "education", ("Education", "🎓") },
+        { "technical", ("Technical Skills", "🔧") },
+        { "resume", ("Resume", "📋") },
+        { "contact", ("Contact", "✉️") }
+    };
+
+    protected override void OnInitialized()
+    {
+        NavigationManager.LocationChanged += OnLocationChanged;
+        SetTitleAndEmoji();
+    }
+
+    private void OnLocationChanged(object sender, Microsoft.AspNetCore.Components.Routing.LocationChangedEventArgs e)
+    {
+        SetTitleAndEmoji();
+        InvokeAsync(StateHasChanged);
+    }
+
+    private async Task ToggleTheme()
+    {
+        try
+        {
+            await JSRuntime.InvokeVoidAsync("themeToggle");
+        }
+        catch (JSException ex)
+        {
+            Console.WriteLine($"Error toggling theme: {ex.Message}");
+        }
+    }
+
+    private void SetTitleAndEmoji()
+    {
+        var currentUri = NavigationManager.Uri.ToLower();
+        var match = _titleEmojiMapping.FirstOrDefault(pair => currentUri.Contains(pair.Key));
+
+        if (match.Key != null)
+        {
+            (TopRowTitle, TopRowTitleEmoji) = match.Value;
+        }
+        else
+        {
+            TopRowTitle = "About";
+            TopRowTitleEmoji = "👨‍💼";
+        }
+    }
+
+    public void Dispose()
+    {
+        NavigationManager.LocationChanged -= OnLocationChanged;
+    }
+}

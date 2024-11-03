@@ -1,0 +1,87 @@
+@page "/experience"
+@inject IJSRuntime JSRuntime
+<PageTitle>Experience</PageTitle>
+
+<!-- Experience Cards Section -->
+<div class="card-container">
+    <div class="card">
+        <img src="images/Bko.jpg" alt="BKO AI">
+        <div class="card-content">
+            <h2>BKO AI, Houston, Texas</h2> <!-- Company and Location -->
+            <p><em>Data Engineer / Knowledge Graph Engineer / AI Engineer</em> <span class="date">Jan 2024 – Current</span></p> <!-- Job Title and Date -->
+            <ul>
+                <li>Entasked to create a real-time data pipeline to transfer on-site refinery IOT data to monitor, analyze, visualize, and predict.</li>
+                <li>Built Data Streaming pipelines using Apache Kafka and Azure Functions to transfer refinery IOT data to Databases.</li>
+                <li>Spearheaded adoption of Apache Flink and built Flink cluster on cloud to transform real-time refinery IOT data.</li>
+                <li>Deployed Apache Airflow Scheduler DAGs to orchestrate IOT aggregation using Apache Spark.</li>
+                <li>Established Azure Databricks pipeline and independent Apache Spark cluster to analyze refinery IOT data.</li>
+                <li>Built knowledge graphs around refinery infrastructure in Neo4j with efficient cypher queries for GenAI to use as RAG tool.</li>
+                <li>Developed in-house GenAI to hit REST endpoints, Vector databases in Pinecone, and other RAG tools.</li>
+                <li>Developed independent monitoring tools such as Prometheus-Grafana on VMs.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/Eog.jpg" alt="EOG Resources">
+        <div class="card-content">
+            <h2>EOG Resources, Houston, Texas</h2> <!-- Company and Location -->
+            <p><em>Data Engineer</em> <span class="date">Dec 2022 – Jan 2024</span></p> <!-- Job Title and Date -->
+            <ul>
+                <li>Built Data Streaming pipelines using Apache Pulsar, Kafka, and RabbitMQ to transfer IOT data from Oil Wells to Databases.</li>
+                <li>Built APIs via FastAPI managed on Azure and Kubernetes on-premises to demonstrate Oil Well Operations on Web.</li>
+                <li>Built Apache Airflow mechanism to schedule tasks on Oil Well Finances.</li>
+                <li>Optimized business logic of source code to retrieve API get calls 20% faster using Python Multiprocessing and GraphQL.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <img src="images/CBRE.jpg" alt="CBRE">
+        <div class="card-content">
+            <h2>Coldwell Banker Richard Ellis (CBRE), Richardson, Texas</h2> <!-- Company and Location -->
+            <p><em>Data Engineer / NLP Intern</em> <span class="date">Jun 2022 – Aug 2022</span></p> <!-- Job Title and Date -->
+            <ul>
+                <li>Built and implemented Huggingface transformer NLP models on AWS EC2 Streamlit API.</li>
+                <li>Statistical modeling on domain data to attain relationships between various variables.</li>
+                <li>Performed Exploratory Data Analysis (EDA) on data from PostGres with parallel computing on Dask.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <img src="images/Exxon.jpg" alt="ExxonMobil Corporation">
+        <div class="card-content">
+            <h2>ExxonMobil Corporation, Singapore, Singapore</h2> <!-- Company and Location -->
+            <p><em>Process Engineer / Optimization Engineer / Data Engineer / Technical Lead</em> <span class="date">Dec 2016 – Sep 2020</span></p> <!-- Job Title and Date -->
+            <ul>
+                <li>Established highest refinery reliability using JMP and Tableau within past 5 years leading to margins of ~1MUSD/Year.</li>
+                <li>Executed key optimizations and loss preventions using Linear Programming with savings of ~1.4MUSD/Year.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/chevron.jpg" alt="Chevron Corporation">
+        <div class="card-content">
+            <h2>Chevron Corporation, Singapore, Singapore</h2> <!-- Company and Location -->
+            <p><em>Process Engineer Intern</em> <span class="date">Jul 2015 – Dec 2015</span></p> <!-- Job Title and Date -->
+            <ul>
+                <li>Performed Statistical Quality Control on imported components saving ~17KUSD/Month.</li>
+                <li>Programmed VBA to automate instrument readings with significant manhours savings.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("initializeObserver");
+        }
+    }
+}

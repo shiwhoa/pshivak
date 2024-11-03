@@ -1,0 +1,145 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\obj\\Debug\\net8.0\\compressed\\10e86us93t.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp.styles.css",
+      "PackagePath": "staticwebassets\\BlazorApp.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\css\\card.css",
+      "PackagePath": "staticwebassets\\css\\card.css"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\css\\dark.css",
+      "PackagePath": "staticwebassets\\css\\dark.css"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\css\\pill.css",
+      "PackagePath": "staticwebassets\\css\\pill.css"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\css\\toggle.css",
+      "PackagePath": "staticwebassets\\css\\toggle.css"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\Bko.jpg",
+      "PackagePath": "staticwebassets\\images\\Bko.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\CBRE.jpg",
+      "PackagePath": "staticwebassets\\images\\CBRE.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\Chevron.jpg",
+      "PackagePath": "staticwebassets\\images\\Chevron.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\Eog.jpg",
+      "PackagePath": "staticwebassets\\images\\Eog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\Exxon.jpg",
+      "PackagePath": "staticwebassets\\images\\Exxon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\NUS.jpg",
+      "PackagePath": "staticwebassets\\images\\NUS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\TTU.jpg",
+      "PackagePath": "staticwebassets\\images\\TTU.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\shiva.jpg",
+      "PackagePath": "staticwebassets\\images\\shiva.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\shiva2.jpg",
+      "PackagePath": "staticwebassets\\images\\shiva2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\shiva3.jpg",
+      "PackagePath": "staticwebassets\\images\\shiva3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\pdfs\\P SHIVA KUMAR_ RESUME24.docx",
+      "PackagePath": "staticwebassets\\pdfs\\P SHIVA KUMAR_ RESUME24.docx"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\pdfs\\P SHIVA KUMAR_RESUME24.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\P SHIVA KUMAR_RESUME24.pdf"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\scrollAnimation.js",
+      "PackagePath": "staticwebassets\\scrollAnimation.js"
+    },
+    {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\themeToggle.js",
+      "PackagePath": "staticwebassets\\themeToggle.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorApp.props",
+      "PackagePath": "build\\BlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\BlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorApp.props",
+      "PackagePath": "buildTransitive\\BlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

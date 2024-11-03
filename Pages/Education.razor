@@ -1,0 +1,37 @@
+@page "/education"
+@inject IJSRuntime JSRuntime
+<PageTitle>Education</PageTitle>
+
+<!-- Experience Cards Section -->
+<div class="card-container">
+    <div class="card">
+        <img src="images/TTU.jpg" alt="TTU">
+        <div class="card-content">
+            <h2>Texas Tech University, Lubbock, Texas, USA</h2> <!-- Institution and Location -->
+            <p><em>Master of Science in Computer Science (GPA 3.90/4.00)</em> <span class="date" style="float: right;">Jan 2021 – Dec 2022</span></p> <!-- Degree and Date -->
+            <p><strong>Scholarship:</strong> Tuition coverage based on outstanding merit</p>
+            <p><strong>Focus:</strong> Transformers, GPT, AI</p>
+            <p><strong>Master’s Thesis:</strong> Metaphor detection using Transformer models (Skills: <strong>Python, Transformers, Deep Learning, NLP</strong>)</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/NUS.jpg" alt="NUS">
+        <div class="card-content">
+            <h2>National University of Singapore, Singapore, Singapore</h2> <!-- Institution and Location -->
+            <p><em>Bachelor of Engineering in Chemical Engineering (Honors) </em> <span class="date" style="float: right;">Aug 2012 – May 2016</span></p> <!-- Degree and Date -->
+            <p><strong>Focus:</strong> Process Engineering, Refinery</p>
+            <p><strong>Bachelor's Thesis:</strong>  Comparison between Column Switching and Simulated Moving Bed for Separation of Ternary Systems  (Skills: <strong>Separation Systems, Process Engineering</strong>)</p>
+        </div>
+    </div>
+</div>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("initializeObserver");
+        }
+    }
+}
