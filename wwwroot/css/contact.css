@@ -86,4 +86,25 @@
     .card-text {
         text-align: center;
     }
+
+    .contact-card .card-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-card .card-text i {
+        margin-right: 0;
+        font-size: 1.2rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .contact-card .card-text {
+        margin-bottom: 1rem;
+    }
+
+    .contact-card .card-body {
+        padding: 1rem;
+    }
 }
