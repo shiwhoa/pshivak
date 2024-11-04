@@ -1,23 +1,24 @@
 .contact-section {
-    background-color:  #fff; /* Dark background */
+    background-color: #fff;
     padding: 50px;
     border-radius: 10px;
-    color: #fff; /* Text color */
+    color: #003366;
 }
 
 .contact-title {
     font-size: 2.5em;
     font-weight: bold;
-    color: #003366;;
+    color: #003366;
 }
+
 .contact-text {
     font-size: 1.5em;
     font-weight: bold;
-    color: #003366;;
+    color: #003366;
 }
 
 .highlight {
-    color: #00a2ff; /* Highlight for the word "Me" */
+    color: #00a2ff;
 }
 
 .contact-info i {
@@ -44,4 +45,45 @@
 
 .btn-primary:hover {
     background-color: #0056b3;
+}
+
+/* Mobile-specific styling */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 20px;
+    }
+
+    .contact-title {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .contact-text {
+        font-size: 1.2em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contact-info {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form-control {
+        font-size: 1em;
+    }
+
+    .btn-primary {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    .card-title {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .card-text {
+        text-align: center;
+    }
 }
