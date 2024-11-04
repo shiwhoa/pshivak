@@ -48,7 +48,7 @@
 }
 
 /* Mobile-specific styling */
-@media (max-width: 768px) {
+@media (max-width: 641px) {
     .contact-section {
         padding: 20px;
     }
@@ -79,7 +79,7 @@
     }
 
     .contact-card {
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .card-title {

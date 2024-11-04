@@ -64,7 +64,7 @@
 }
 
 /* Responsive adjustments for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 641px) {
     .about-section {
         flex-direction: column;
         justify-content: center;
