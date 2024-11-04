@@ -1,23 +1,34 @@
 .contact-section {
-    background-color:  #fff; /* Dark background */
+    background-color: #fff; /* Light background */
     padding: 50px;
     border-radius: 10px;
-    color: #fff; /* Text color */
+    color: #003366; /* Text color */
+    max-width: 800px;
+    margin: auto;
 }
 
 .contact-title {
     font-size: 2.5em;
     font-weight: bold;
-    color: #003366;;
+    color: #003366;
+    text-align: center;
 }
+
 .contact-text {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
-    color: #003366;;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .highlight {
     color: #00a2ff; /* Highlight for the word "Me" */
+}
+
+.contact-info {
+    text-align: center; /* Center alignment for contact info */
+    margin-bottom: 20px;
 }
 
 .contact-info i {
@@ -44,4 +55,59 @@
 
 .btn-primary:hover {
     background-color: #0056b3;
+}
+
+/* Additional Contact Links Card Styling */
+.card {
+    background-color: #1d3b5b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #00a2ff;
+}
+
+.card-text a {
+    color: #00a2ff;
+    text-decoration: none;
+}
+
+.card-text a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-title {
+        font-size: 2em;
+    }
+
+    .contact-text {
+        font-size: 1.2em;
+    }
+
+    .contact-section {
+        padding: 20px;
+    }
+
+    .form-control {
+        font-size: 1em;
+    }
+
+    .card-title {
+        font-size: 1.5em;
+    }
+
+    .btn-primary {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
 }
