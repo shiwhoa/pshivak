@@ -2061,3 +2061,4 @@ C:\Users\pshiv\projects\mywebapp\mywebpagefrontendblazor\obj\Debug\net8.0\Blazor
 C:\Users\pshiv\projects\mywebapp\mywebpagefrontendblazor\obj\Debug\net8.0\refint\BlazorApp.dll
 C:\Users\pshiv\projects\mywebapp\mywebpagefrontendblazor\obj\Debug\net8.0\BlazorApp.pdb
 C:\Users\pshiv\projects\mywebapp\mywebpagefrontendblazor\obj\Debug\net8.0\ref\BlazorApp.dll
+C:\Users\pshiv\projects\mywebapp\mywebpagefrontendblazor\obj\Debug\net8.0\BlazorApp.sourcelink.json

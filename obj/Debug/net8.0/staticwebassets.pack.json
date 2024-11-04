@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\BlazorApp.styles.css"
     },
     {
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\.nojekyll",
+      "PackagePath": "staticwebassets\\.nojekyll"
+    },
+    {
       "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\css\\about.css",
       "PackagePath": "staticwebassets\\css\\about.css"
     },
@@ -91,14 +95,6 @@
     {
       "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\shiva.jpg",
       "PackagePath": "staticwebassets\\images\\shiva.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\shiva2.jpg",
-      "PackagePath": "staticwebassets\\images\\shiva2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\images\\shiva3.jpg",
-      "PackagePath": "staticwebassets\\images\\shiva3.jpg"
     },
     {
       "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\index.html",
