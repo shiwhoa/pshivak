@@ -78,6 +78,10 @@
         padding: 10px 20px;
     }
 
+    .contact-card {
+        max-width: 90%;
+    }
+
     .card-title {
         font-size: 1.5em;
         text-align: center;
@@ -92,16 +96,12 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        text-align: center;
     }
+
     .contact-card .card-text i {
         margin-right: 0;
         font-size: 1.2rem;
         margin-bottom: 0.25rem;
-    }
-
-    .contact-card .card-text {
-        margin-bottom: 1rem;
     }
 
     .contact-card .card-body {
