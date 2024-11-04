@@ -13,8 +13,8 @@
       "PackagePath": "staticwebassets\\BlazorApp.styles.css"
     },
     {
-      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\.nojekyll",
-      "PackagePath": "staticwebassets\\.nojekyll"
+      "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\404.html",
+      "PackagePath": "staticwebassets\\404.html"
     },
     {
       "Id": "C:\\Users\\pshiv\\projects\\mywebapp\\mywebpagefrontendblazor\\wwwroot\\css\\about.css",
