@@ -1,0 +1,92 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px; /* Reduced padding to prevent extra space on sides */
+    width: 100%; /* Full width of the screen */
+    max-width: 100%; /* Increase max width for larger screens */
+    height: auto;
+    gap: 20px; /* Adds spacing between the image and text */
+}
+
+/* Text content styling */
+.about-text {
+    flex: 1;
+    font-size: 1.0vw; /* Adjust font size for better readability */
+    line-height: 1.5; /* Increased line height for better readability */
+    animation: swingInLeft 1s ease-out; /* Apply animation */
+}
+
+/* Larger text for the header */
+.about-text h1 {
+    font-size: 2vw; /* Reduced slightly for better visual balance */
+    margin-bottom: 20px; /* Increase margin for better spacing */
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px; /* Adjust the value as needed for a subtle shift */
+}
+
+/* Image styling */
+.about-image img {
+    width: 200vw; /* Reduced from 20vw */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Reduced max width for better balance */
+    animation: swingInRight 1s ease-out; /* Apply animation */
+}
+
+/* Keyframe animation for text swinging in from the left */
+@keyframes swingInLeft {
+    0% {
+        transform: translateX(-100vw); /* Start off-screen to the left */
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); /* Swing into place */
+        opacity: 1;
+    }
+}
+
+/* Keyframe animation for image swinging in from the right */
+@keyframes swingInRight {
+    0% {
+        transform: translateX(100vw); /* Start off-screen to the right */
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); /* Swing into place */
+        opacity: 1;
+    }
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .about-text {
+        text-align: center;
+        font-size: 4vw; 
+        animation: swingInLeft 1s ease-out; /* Reapply animation */
+    }
+
+    .about-text h1 {
+        font-size: 6vw;
+    }
+
+    .about-image img {
+        width: 50vw;
+        max-width: 180px; /* Further restrict size on smaller screens */
+        animation: swingInRight 1s ease-out; /* Reapply animation */
+    }
+}
+
+

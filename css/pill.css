@@ -1,0 +1,41 @@
+.pill-wrapper {
+    display: flex;
+    align-items: center; /* Vertically aligns text and labels */
+    gap: 15px; /* Space between "Languages" and the labels */
+    margin-bottom: 20px; /* Increase space between rows */
+    justify-content: center;
+}
+
+.pill-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.pill-container {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px; /* Spacing between labels */
+    flex-wrap: wrap; /* Ensure labels wrap onto the next line if necessary */
+}
+
+/* Label style */
+.pill {
+    display: inline-block;
+    padding: 8px 15px; /* Padding inside the label */
+    border: 1px solid #ccc; /* Border similar to your reference */
+    border-radius: 25px; /* Rounded corners */
+    background-color: #2a2a2a; /* Dark background color */
+    color: white; /* White text color */
+    font-size: 14px; /* Adjusted font size */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Similar font */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect for labels */
+.pill:hover {
+    background-color: #404040; /* Slightly lighter background on hover */
+}

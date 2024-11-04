@@ -1,0 +1,31 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #2c3e50;
+    --link-color: #0071c1;
+    --button-bg-color: #1b6ec2;
+    --button-text-color: #ffffff;
+  }
+  
+  [data-theme="dark"] {
+    --background-color: #0d2235;
+    --text-color: #ffffff;
+    --link-color: #00a2ff;
+    --button-bg-color: #007bff;
+    --button-text-color: #ffffff;
+  }
+  
+  /* Use variables in your CSS */
+  body, html {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  a, .btn-link {
+    color: var(--link-color);
+  }
+  
+  .btn-primary {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+  }
