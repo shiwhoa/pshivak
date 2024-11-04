@@ -14,10 +14,10 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '6.0.x' # Make sure this version matches your project's .NET version
+          dotnet-version: '8.0.x' 
 
       - name: Publish
-        run: dotnet publish -c Release -o build
+        run: dotnet publish BlazorApp.csproj -c Release -o build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
